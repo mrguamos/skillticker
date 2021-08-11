@@ -9,5 +9,8 @@
     "discord.js": "^13.0.1",
     "dotenv": "^10.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": "16.x"
+  }
 }
