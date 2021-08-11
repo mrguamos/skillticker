@@ -76,5 +76,8 @@ const getBNB = async () => {
     return res;
 }
 
-
-client.login(process.env.TOKEN);
+try {
+    await client.login(process.env.TOKEN);  
+} catch (error) {
+    console.log(error);
+}
