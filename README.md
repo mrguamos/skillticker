@@ -1,1 +1,1 @@
-trigger
+Discord Bot Skill Ticker

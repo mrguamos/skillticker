@@ -1,7 +1,6 @@
-const fs = require('fs')
 const axios = require('axios')
 const Cron = require('cron').CronJob;
-const { Client, Collection, Intents, Message } = require('discord.js');
+const { Client, Intents } = require('discord.js');
 require('dotenv').config();
 
 (async () =>{
